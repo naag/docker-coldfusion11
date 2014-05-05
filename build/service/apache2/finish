@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+
+running=1
+
+while [ $running = "1" ]
+do
+	/etc/init.d/apache2 status >/dev/null
+	sleep 10
+done
+
+exit 1

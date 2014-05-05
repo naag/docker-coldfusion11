@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -e
+
+running=1
+
+while [ $running = "1" ]
+do
+	status="$(/opt/coldfusion10/cfusion/bin/coldfusion status)"
+	if [ "$status" != "Server is running" ]
+	then
+		running=0
+		break
+	fi
+
+	sleep 10
+done
+
+exit 1

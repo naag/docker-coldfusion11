@@ -6,6 +6,7 @@ cd build/install
 if [ ! -f "ColdFusion_10_WWEJ_linux64.bin" ]
 then
 	wget http://download.macromedia.com/pub/coldfusion/updates/10/installers/ColdFusion_10_WWEJ_linux64.bin
+	chmod 755 ColdFusion_10_WWEJ_linux64.bin
 fi
 
 if [ ! -f "cf10_mdt_updt.jar" ]

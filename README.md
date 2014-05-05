@@ -1,7 +1,7 @@
 docker-coldfusion11
 ===================
 
-ColdFusion 11 as Docker image. Run
+ColdFusion 11 as Docker image on Ubuntu 12.04. Run
 
     ./prepare.sh
 

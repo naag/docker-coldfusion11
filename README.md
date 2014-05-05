@@ -1,14 +1,14 @@
-docker-coldfusion10
+docker-coldfusion11
 ===================
 
-ColdFusion 10 as Docker image. Run
+ColdFusion 11 as Docker image. Run
 
     ./prepare.sh
-    
-first to download ColdFusion 10 installer and latest patches. Then build the Docker container:
 
-    docker build -t cf10 .
+first to download ColdFusion 11 installer and latest patches. Then build the Docker container:
+
+    docker build -t cf11 .
 
 And run it with:
 
-    docker run -d -P 8500:8500 cf10
+    docker run -d -p 80:80 -v /var/www:/var/www cf10

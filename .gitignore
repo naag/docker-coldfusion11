@@ -1,3 +1,2 @@
-build/install/hotfix_013.jar
-build/install/cf10_mdt_updt.jar
-build/install/ColdFusion_10_WWEJ_linux64.bin
+build/install/*.jar
+build/install/ColdFusion_*_WWEJ_linux64.bin
